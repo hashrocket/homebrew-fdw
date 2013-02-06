@@ -7,7 +7,6 @@ class PostgresqlMysqlFdw < Formula
   sha1 '21b3c0e6156a7c3874a14e4ae056322b89fa6a7a'
 
   depends_on :postgresql
-  depends_on :mysql
   depends_on 'cmake' => :build
 
   def install
